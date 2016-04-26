@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Login</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="" id="loginModal">
+                    <div class="modal-body">
+                        <div class="well">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#login" data-toggle="tab">Login</a></li>
+                                <li><a href="#create" data-toggle="tab">Create Account</a></li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane active in" id="login">
+                                    <form role="form">
+                                        <fieldset>
+                                            <br/>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Email" name="email" type="email" autofocus=""/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Password" name="password" type="password" value=""/>
+                                            </div>
+                                            <div class="form-group">
+                                                <!-- Change this to a button or input when using this as a form -->
+                                                <button type="button" class="btn btn-primary btn-block btn-lg" onclick="window.location.href='dashboard.html'">Login</button>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>
+                                                    <a href="#">Forgot Password?</a>
+                                                </label>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="create">
+                                    <form role="form">
+                                        <div id="legend">
+                                            <legend>Contact Information</legend>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" id="firstname" class="form-control input-lg" placeholder="First Name"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="last_name" id="lastname" class="form-control input-lg" placeholder="Last Name"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="company" id="company" class="form-control input-lg" placeholder="Company Name"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="phone" id="phone" class="form-control input-lg" placeholder="Phone #"/>
+                                        </div>
+                                        <legend>Delivery Information</legend>
+                                        <div class="form-group">
+                                            <input type="text" name="street" id="street" class="form-control input-lg" placeholder="Delivery Street Address"/>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="city" name="city" id="city" class="form-control input-lg" placeholder="City"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3 col-md-3">
+                                                <div class="form-group">
+                                                    <select name="state" class="form-control">
+                                                        <option value="AL">AL</option>
+                                                        <option value="AK">AK</option>
+                                                        <option value="AZ">AZ</option>
+                                                        <option value="AR">AR</option>
+                                                        <option value="CA">CA</option>
+                                                        <option value="CO" selected="true">CO</option>
+                                                        <option value="CT">CT</option>
+                                                        <option value="DE">DE</option>
+                                                        <option value="DC">DC</option>
+                                                        <option value="FL">FL</option>
+                                                        <option value="GA">GA</option>
+                                                        <option value="HI">HI</option>
+                                                        <option value="ID">ID</option>
+                                                        <option value="IL">IL</option>
+                                                        <option value="IN">IN</option>
+                                                        <option value="IA">IA</option>
+                                                        <option value="KS">KS</option>
+                                                        <option value="KY">KY</option>
+                                                        <option value="LA">LA</option>
+                                                        <option value="ME">ME</option>
+                                                        <option value="MD">MD</option>
+                                                        <option value="MA">MA</option>
+                                                        <option value="MI">MI</option>
+                                                        <option value="MN">MN</option>
+                                                        <option value="MS">MS</option>
+                                                        <option value="MO">MO</option>
+                                                        <option value="MT">MT</option>
+                                                        <option value="NE">NE</option>
+                                                        <option value="NV">NV</option>
+                                                        <option value="NH">NH</option>
+                                                        <option value="NJ">NJ</option>
+                                                        <option value="NM">NM</option>
+                                                        <option value="NY">NY</option>
+                                                        <option value="NC">NC</option>
+                                                        <option value="ND">ND</option>
+                                                        <option value="OH">OH</option>
+                                                        <option value="OK">OK</option>
+                                                        <option value="OR">OR</option>
+                                                        <option value="PA">PA</option>
+                                                        <option value="RI">RI</option>
+                                                        <option value="SC">SC</option>
+                                                        <option value="SD">SD</option>
+                                                        <option value="TN">TN</option>
+                                                        <option value="TX">TX</option>
+                                                        <option value="UT">UT</option>
+                                                        <option value="VT">VT</option>
+                                                        <option value="VA">VA</option>
+                                                        <option value="WA">WA</option>
+                                                        <option value="WV">WV</option>
+                                                        <option value="WI">WI</option>
+                                                        <option value="WY">WY</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3 col-md-3">
+                                                <div class="form-group">
+                                                    <input type="zip" name="zip" id="zip" class="form-control input-lg" placeholder="Zip Code"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="delivery" name="delivery" id="email" class="form-control input-lg" placeholder="Type in a small discription on how you want us to deliver"/>
+                                        </div>
+                                        <legend>Credential Information</legend>
+                                        <div class="form-group">
+                                            <input type="license" name="license" id="email" class="form-control input-lg" placeholder="License #"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address"/>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <button type="button" class="btn btn-primary btn-block btn-lg" data-toggle="modal" data-target="#myModal">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Usage Agreement</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>We will verify your license number to make sure that it is update to date and compliant.  Please click OK to accept. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="window.location.href='dashboard.html'">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="js/jquery.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
