@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kind</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://kindenterprise.com/</link>
+    <atom:link href="http://kindenterprise.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 12 Aug 2016 16:17:27 -0600</pubDate>
+    <lastBuildDate>Fri, 12 Aug 2016 16:17:27 -0600</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>My strain name 1</title>
+        <description>
+</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 -0600</pubDate>
+        <link>http://kindenterprise.com/2014/07/18/project-1/</link>
+        <guid isPermaLink="true">http://kindenterprise.com/2014/07/18/project-1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My strain name 2</title>
+        <description>
+</description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 -0600</pubDate>
+        <link>http://kindenterprise.com/2014/07/17/project-2/</link>
+        <guid isPermaLink="true">http://kindenterprise.com/2014/07/17/project-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My strain name 3</title>
+        <description>
+</description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 -0600</pubDate>
+        <link>http://kindenterprise.com/2014/07/16/project-3/</link>
+        <guid isPermaLink="true">http://kindenterprise.com/2014/07/16/project-3/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My strain name 4</title>
+        <description>
+</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 -0600</pubDate>
+        <link>http://kindenterprise.com/2014/07/15/project-4/</link>
+        <guid isPermaLink="true">http://kindenterprise.com/2014/07/15/project-4/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My strain name 5</title>
+        <description>
+</description>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 -0600</pubDate>
+        <link>http://kindenterprise.com/2014/07/14/project-5/</link>
+        <guid isPermaLink="true">http://kindenterprise.com/2014/07/14/project-5/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My strain name 6</title>
+        <description>
+</description>
+        <pubDate>Sun, 13 Jul 2014 00:00:00 -0600</pubDate>
+        <link>http://kindenterprise.com/2014/07/13/project-6/</link>
+        <guid isPermaLink="true">http://kindenterprise.com/2014/07/13/project-6/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
