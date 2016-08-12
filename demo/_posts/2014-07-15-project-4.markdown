@@ -1,0 +1,10 @@
+---
+title: My strain name 4
+layout: default
+modal-id: 4
+img: empty.png
+thumbnail: empty-thumbnail.png
+alt: strain name
+price: $150.00
+description: My long description of the strain
+---
