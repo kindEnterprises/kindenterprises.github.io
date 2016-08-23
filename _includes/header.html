@@ -1,58 +1,63 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!--<a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>-->
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#strains">Strains</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#ordering">Ordering</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#partners">Partners</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About Kind</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#employment">Employment</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>-->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"><img src="img/logo.png"/></div>
-                <div class="intro-lead-in">Where quality meets cultivation.</div>
-                <a href="#strains" class="page-scroll btn btn-xl">Strains</a>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#strains">Strains</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#ordering">Ordering</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#partners">Partners</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About Kind</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#employment">Employment</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div id="search-container">
+                <div id="search-bg"></div>
+                <div id="search"  style="filter:url(#blur)">
+                    <h2><img src="img/logo.png"/></h2>
+                    <div class="intro-lead-in">Where quality meets cultivation.</div>
+                    <a href="#strains" class="page-scroll btn btn-xl">Strains</a>
+                </div>
             </div>
         </div>
-    </header>
+    </div>
+
+</header>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-
