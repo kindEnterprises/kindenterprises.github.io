@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -863,13 +863,13 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-#bg, #search-bg {
+#bg, #frostbox-bg {
 
 }
 
 /* effect: see through the header bar */
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  #search-bg {
+  #frostbox-bg {
       -webkit-backdrop-filter: blur(8px);
       backdrop-filter: blur(8px);
   }
@@ -880,12 +880,12 @@ body {
   padding: 70px 90px 120px 90px;
 }
 
-#search-container {
+#frostbox-container {
   position: relative;
 }
 
-#search-bg {
-  /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+#frostbox-bg {
+  /* Absolutely position it, but stretch it to all four corners, then put it just behind #frostbox's z-index */
   position: absolute;
   top: 0px;
   right: 0px;
@@ -895,26 +895,31 @@ body {
 
   /* Pull the background 70px higher to the same place as #bg's */
   background-position: center -70px;
-
-  -webkit-filter: blur(10px);
-  filter: url('/media/blur.svg#blur');
-  filter: blur(10px);
 }
 
-#search {
+#frostbox {
   /* Put this on top of the blurred layer */
   position: relative;
   z-index: 100;
   padding: 20px;
   background: rgb(34,34,34); /* for IE */
   background: rgba(34,34,34,0.75);
+  border-radius: 10px;
 }
 
 @media (max-width: 600px ) {
   #bg { padding: 10px; }
-  #search-bg { background-position: center -10px; }
+  #frostbox-bg { background-position: center -10px; }
 }
 
-#search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
-#search h2 { margin-bottom: 50px }
-#search h5 { margin-top: 70px }
+#frostbox h2, #frostbox h5, #frostbox h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+#frostbox h2 { margin-bottom: 50px }
+#frostbox h5 { margin-top: 70px }
+
+.vertical-bar {
+	border-right: 1px solid #{{ site.data.template.color.primary }};;
+}
+
+.horizantal-bar {
+	border-top: 1px solid #{{ site.data.template.color.primary }};;
+}
